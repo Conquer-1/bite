@@ -1,2 +1,7 @@
 # bite
-写代码
+#include<stdio.h>
+int main()
+{
+printf("hahaha");
+return 0;
+}
