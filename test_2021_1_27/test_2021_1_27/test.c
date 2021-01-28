@@ -168,5 +168,9 @@ int main()
 		empty = empty / 2 + empty % 2;
 	}
 	printf("%d\n", total);
+	/*if (money == 0)
+		total = 0;
+	else
+		total = 2 * money - 1;*/
 	return 0;
 }
