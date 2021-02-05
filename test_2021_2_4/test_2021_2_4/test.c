@@ -17,20 +17,20 @@
 #include <stdio.h>
 #include <string.h>
 
-//
-//int main()
-//{
-//	if (strlen("abc") - strlen("abcdef") > 0)
-//	{
-//		printf(">\n");
-//	}
-//	else
-//	{
-//		printf("<\n");
-//	}
-//
-//	return 0;
-//}
+
+int main()
+{
+	if (strlen("abc") - strlen("abcdef") > 0)
+	{
+		printf(">\n");
+	}
+	else
+	{
+		printf("<\n");
+	}
+	unsigned int ret = strlen("abc") - strlen("abcdef");
+	return 0;
+}
 #include <assert.h>
 //
 //char* my_strcpy(char* dest, const char* src)
@@ -451,7 +451,7 @@
 
 //unsigned int ¡ª¡ª>size_t
 
-size_t my_strlen(const char *str)
+/*size_t my_strlen(const char *str)
 {
 	int count = 0;
 	while (*str++)
@@ -464,4 +464,4 @@ int main()
 	char arr[] = "abcdef";
 	printf("%d\n", my_strlen(arr));
 	return 0;
-}
+}*/
